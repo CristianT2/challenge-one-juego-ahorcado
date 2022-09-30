@@ -10,10 +10,10 @@
 </head>
 <body>
     <header>
-        <img src="./images/Logo.png" class="logo" alt="logo-alura">
+        <a href="index.html"><img src="./images/Logo.png" class="logo" alt="logo-alura"></a>
     </header>
     <main>
-        <section>
+        <section class="seccion1">
             <div class="buttons">
                 <input type="button" class="btn-iniciar boton" value="Iniciar Juego">
                 <input type="button"  class="btn-nueva boton" value="Agregar Palabra">
@@ -36,6 +36,44 @@
             </div>
             <div class="contenedor-letras-bien"></div>
             <div class="contenedor-letras-mal"></div>
+            <div class="teclas ocultar">
+                <img src="images/teclado.png" alt="teclado en pantalla" class="teclado">
+                <div class="teclado-pantalla ocultar">
+                    <div class="primer-fila">
+                        <div class="key">Q</div>
+                        <div class="key">W</div>
+                        <div class="key">E</div>
+                        <div class="key">R</div>
+                        <div class="key">T</div>
+                        <div class="key">Y</div>
+                        <div class="key">U</div>
+                        <div class="key">I</div>
+                        <div class="key">O</div>
+                        <div class="key">P</div>
+                    </div>
+                    <div class="segunda-fila">
+                        <div class="key">A</div>
+                        <div class="key">S</div>
+                        <div class="key">D</div>
+                        <div class="key">F</div>
+                        <div class="key">G</div>
+                        <div class="key">H</div>
+                        <div class="key">J</div>
+                        <div class="key">K</div>
+                        <div class="key">L</div>
+                        <div class="key">Ñ</div>
+                    </div>
+                    <div class="tercer-fila">
+                        <div class="key">Z</div>
+                        <div class="key">X</div>
+                        <div class="key">C</div>
+                        <div class="key">V</div>
+                        <div class="key">B</div>
+                        <div class="key">N</div>
+                        <div class="key">M</div>
+                    </div>
+                </div>
+            </div>
             <div class="contenedor-btn">
                 <div class="botons">
                     <input type="button" id="btn-njuego" class="btn-njuego boton" value="Nuevo juego">
@@ -47,5 +85,12 @@
     <footer>
         <p> Hecho por Cristian Torrejon ©</p>
     </footer>
+
+
+    <script src="JavaScript/funcionesJuego.js"></script>
+    <script src="JavaScript/juego.js"></script>
+    <script src="JavaScript/palabras.js"></script>
+    <script src="JavaScript/horca.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>
