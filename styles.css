@@ -369,6 +369,11 @@ footer {
 
 @media screen and (min-width : 0px) and (max-width : 360px) {
 
+    html,
+    body {
+        height: 100vh;
+    }
+
     .seccion1,
     .buttons {
         
@@ -416,7 +421,8 @@ footer {
     }
 
     footer {
-        display: block;
+        display: flex;
+        bottom: 100vh;
     }
 
     /*Desktop 3*/
@@ -435,17 +441,27 @@ footer {
     }
 
     #hombre {
-        width: 80%;
+        width: 60%;
+        height: auto;
         left: 0%;
         margin: auto;
-        margin-top: 60px;
+        margin-top: 20px;
         display: flex;
         align-items: center;
         justify-content: center;
     }
+
+    .seccion3 {
+        height: 100vh;
+    }
 }
 
 @media screen and (min-width : 360px) and (max-width : 480px) {
+
+    html,
+    body {
+        height: 100vh;
+    }
 
     .seccion1,
     .buttons {
@@ -526,9 +542,18 @@ footer {
         align-items: center;
         justify-content: center;
     }
+
+    .seccion3 {
+        height: 100vh;
+    }
 }
 
 @media screen and (min-width : 480px) and (max-width : 768px) {
+
+    html,
+    body {
+        height: 100vh;
+    }
 
     .seccion1,
     .buttons {
@@ -576,13 +601,14 @@ footer {
     }
 
     footer {
-        display: none;
+        display: block;
     }
 
     /*Desktop 3*/
 
     .botons {
         margin-top: 4%;
+        display: block;
     }
 
     .btn-njuego,
@@ -602,6 +628,11 @@ footer {
 
 
 @media screen and (min-width : 770px) and (max-width : 960px) {
+
+    html,
+    body {
+        height: 100vh;
+    }
 
     .botons {
         display: block;
@@ -631,6 +662,11 @@ footer {
 }
 
 @media screen and (min-width : 960px) and (max-width : 1328px) {
+
+    html,
+    body {
+        height: 100vh;
+    }
 
     .botons {
         display: block;
